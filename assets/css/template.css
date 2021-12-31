@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+button {
+    background: #1289A7;
+    color: #ffffff;
+    border: none;
+}
+button:hover {
+    background: #12CBC4;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+
+.header {
+    background: #2980b9;
+    width: 100%;
+    height: 60px;
+    color: #ffffff;
+    display: flex;
+    border-bottom: 1px solid cornflowerblue;
+}
+.header_user_info {
+    width: 350px;
+    height: 100%;
+    border-right: 1px solid cornflowerblue;
+}
+.header_user_info_center {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex;
+}
+.header_user_img {
+    width: 60px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_user_img img {
+    width: 40px;
+    height: 40px;
+}
+.header_user_tiny_texts {
+    display: flex;
+    height: 20px;
+    align-items: center;
+}
+.online_border {
+    background: chartreuse;
+    width: 8px;
+    height: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+.offline_border {
+    background: crimson;
+    width: 8px;
+    height: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+.header_content {
+    width: 850px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+.header_to {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header_to img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header_search {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header_search input {
+    width: 300px;
+    height: 30px;
+    outline: none;
+    padding: 10px;
+    border-radius: 15px;
+}
+.header_buttons {
+    width: 295px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_buttons button {
+    width: 120px;
+    height: 25px;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container {
+    width: 100%;
+    height: 89vh;
+    display: flex;
+}
