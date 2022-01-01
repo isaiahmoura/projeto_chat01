@@ -88,6 +88,91 @@ input:focus {
     width: 72%;
     height: 89vh;
 }
+.modal_user {
+    display: none;
+    flex-direction: column;
+    background: #ffffff;
+    width: 400px;
+    height: 550px;
+    border: 1px solid #0089DB;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -270px;
+    margin-left: -200px;
+}
+.modal_header {
+    background: #0089DB;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+}
+.modal_header_button {
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.modal_header_button button {
+    background: none;
+}
+.modal_header_button img {
+    width: 20px;
+    height: 20px;
+}
+.modal_header_user_img {
+    width: 90%;
+    height: 120px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modal_header_user_img img {
+    width: 70px;
+    height: 70px;
+}
+.modal_header_user_img p {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.modal_user_center {
+    width: 90%;
+    height: 400px;
+    margin:auto;
+    overflow-y: auto;
+}
+.modal_user_options {
+    width: 100%;
+    height: 60px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #0089DB;
+}
+.modal_user_options:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #30336b;
+    transition: 0.5 ease;
+}
+.modal_user_options_img {
+    width: 60px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal_user_options_img img {
+    width: 20px;
+    height: 20px;
+}
 .message_no_choose {
     width: 100%;
     height: 100%;

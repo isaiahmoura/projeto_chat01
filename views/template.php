@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Projeto - Chat01</title>
+		<title>Projeto - Chat_01</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<link rel="shortcut icon" href="<?php echo BASE_URL; ?>assets/images/message.png" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/css/template.css">
+		<script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/template_app.js"></script>
 		<script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/jquery.min.js"></script>
 	</head>
 	<body>
@@ -19,6 +20,11 @@
 							<div class="online_border"></div><?php echo $get_user_data['email']; ?>
 						</div>
 					</div>
+				</div>
+				<div class="user_button">
+					<button
+						onclick="modal_user()"
+					>+</button>
 				</div>
 			</div>
 			<div class="header_content">

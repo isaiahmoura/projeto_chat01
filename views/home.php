@@ -36,6 +36,57 @@
 </section>
 
 <section class="container_right">
+    <div class="modal_user">
+        <div class="modal_header">
+            <div class="modal_header_button">
+                <button
+                    onclick="modal_user_fechar()"
+                ><img src="<?php echo BASE_URL; ?>assets/images/close.png" alt=""></button>
+            </div>
+            <div class="modal_header_user_img">
+                <img src="<?php echo BASE_URL; ?>assets/images/user_default.png" alt="">
+                <p>Isaias Moura</p>
+            </div>
+        </div>
+        <div class="modal_user_center">
+            <div class="modal_user_options">
+                <div class="modal_user_options_img">
+                    <img src="<?php echo BASE_URL; ?>assets/images/message.png" alt="">
+                </div>
+                <p>Enviar uma mensagem</p>
+            </div>
+            <div class="modal_user_options">
+                <div class="modal_user_options_img">
+                    <img src="<?php echo BASE_URL; ?>assets/images/phone_call.png" alt="">
+                </div>
+                <p>Iniciar uma chamada..</p>
+            </div>
+            <div class="modal_user_options">
+                <div class="modal_user_options_img">
+                    <img src="<?php echo BASE_URL; ?>assets/images/share.png" alt="">
+                </div>
+                <p>Compartilhar contato.</p>
+            </div>
+            <div class="modal_user_options">
+                <div class="modal_user_options_img">
+                    <img src="<?php echo BASE_URL; ?>assets/images/team.png" alt="">
+                </div>
+                <p>Criar um grupo com Isaias Moura</p>
+            </div>
+            <div class="modal_user_options">
+                <div class="modal_user_options_img">
+                    <img src="<?php echo BASE_URL; ?>assets/images/lock.png" alt="">
+                </div>
+                <p>Bloquear Contato..</p>
+            </div>
+            <div class="modal_user_options">
+                <div class="modal_user_options_img">
+                    <img src="<?php echo BASE_URL; ?>assets/images/trash.png" alt="">
+                </div>
+                <p>Excluir contato..</p>
+            </div>
+        </div>
+    </div>
     <div class="message_no_choose">
         <img src="assets/images/message.png" alt="">
         <h2>Converse com alguêm agora...</h2>
@@ -49,24 +100,6 @@
                 </div>
                 <div class="message_me">
                     vou bem vlw
-                </div>
-                <div class="message_me">
-                    e voce?
-                </div>
-                <div class="message_friend">
-                    vou bem tbm kkkkkkk
-                </div>
-                <div class="message_friend">
-                    que legal :) kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-                </div>
-                <div class="message_me">
-                    kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-                </div>
-                <div class="message_me">
-                    kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-                </div>
-                <div class="message_me">
-                    kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
                 </div>
             </div>
         </div>
